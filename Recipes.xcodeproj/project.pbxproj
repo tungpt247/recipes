@@ -20,6 +20,13 @@
 		30FF276F1B842A4A00D4B23E /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF276D1B842A4A00D4B23E /* RecipeViewController.swift */; };
 		30FF27701B842A4A00D4B23E /* RecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FF276E1B842A4A00D4B23E /* RecipeViewController.xib */; };
 		30FF27831B842BA300D4B23E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF27821B842BA300D4B23E /* Alamofire.framework */; };
+		30FF27901B843A4000D4B23E /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF27891B843A4000D4B23E /* Box.framework */; };
+		30FF27911B843A4000D4B23E /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF278A1B843A4000D4B23E /* BrightFutures.framework */; };
+		30FF27921B843A4000D4B23E /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF278B1B843A4000D4B23E /* ReactiveCocoa.framework */; };
+		30FF27931B843A4000D4B23E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF278C1B843A4000D4B23E /* Realm.framework */; };
+		30FF27941B843A4000D4B23E /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF278D1B843A4000D4B23E /* RealmSwift.framework */; };
+		30FF27951B843A4000D4B23E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF278E1B843A4000D4B23E /* Result.framework */; };
+		30FF27961B843A4000D4B23E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FF278F1B843A4000D4B23E /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,13 @@
 		30FF276D1B842A4A00D4B23E /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		30FF276E1B842A4A00D4B23E /* RecipeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeViewController.xib; sourceTree = "<group>"; };
 		30FF27821B842BA300D4B23E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		30FF27891B843A4000D4B23E /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Box.framework; path = Carthage/Build/iOS/Box.framework; sourceTree = "<group>"; };
+		30FF278A1B843A4000D4B23E /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
+		30FF278B1B843A4000D4B23E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		30FF278C1B843A4000D4B23E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		30FF278D1B843A4000D4B23E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		30FF278E1B843A4000D4B23E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		30FF278F1B843A4000D4B23E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				30FF27831B842BA300D4B23E /* Alamofire.framework in Frameworks */,
+				30FF27901B843A4000D4B23E /* Box.framework in Frameworks */,
+				30FF27911B843A4000D4B23E /* BrightFutures.framework in Frameworks */,
+				30FF27921B843A4000D4B23E /* ReactiveCocoa.framework in Frameworks */,
+				30FF27931B843A4000D4B23E /* Realm.framework in Frameworks */,
+				30FF27941B843A4000D4B23E /* RealmSwift.framework in Frameworks */,
+				30FF27951B843A4000D4B23E /* Result.framework in Frameworks */,
+				30FF27961B843A4000D4B23E /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +95,7 @@
 		30FF27321B8426E700D4B23E = {
 			isa = PBXGroup;
 			children = (
-				30FF27821B842BA300D4B23E /* Alamofire.framework */,
+				30FF27881B843A2000D4B23E /* Frameworks */,
 				30FF273D1B8426E700D4B23E /* Recipes */,
 				30FF27531B8426E700D4B23E /* RecipesTests */,
 				30FF273C1B8426E700D4B23E /* Products */,
@@ -172,6 +193,21 @@
 			children = (
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		30FF27881B843A2000D4B23E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30FF27891B843A4000D4B23E /* Box.framework */,
+				30FF278A1B843A4000D4B23E /* BrightFutures.framework */,
+				30FF278B1B843A4000D4B23E /* ReactiveCocoa.framework */,
+				30FF278C1B843A4000D4B23E /* Realm.framework */,
+				30FF278D1B843A4000D4B23E /* RealmSwift.framework */,
+				30FF278E1B843A4000D4B23E /* Result.framework */,
+				30FF278F1B843A4000D4B23E /* SwiftyJSON.framework */,
+				30FF27821B842BA300D4B23E /* Alamofire.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +314,14 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Box.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BrightFutures.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			outputPaths = (
 			);
