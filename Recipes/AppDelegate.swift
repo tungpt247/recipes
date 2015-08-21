@@ -12,10 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-
+  var recipeNavigationController: UINavigationController!
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+
+    recipeNavigationController = UINavigationController()
+
+    let recipeManager = RecipeManager()
+    let recipeViewModel = RecipeViewModel(recipeManager: recipeManager)
+    let recipeViewController = RecipeViewController(recipeViewModel: recipeViewModel)
+
+    window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    window!.rootViewController = recipeViewController
+    window!.makeKeyAndVisible()
+
     return true
   }
 
